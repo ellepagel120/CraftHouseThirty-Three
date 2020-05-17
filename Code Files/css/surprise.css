@@ -1,0 +1,346 @@
+.header {
+  padding: 10px 16px;
+  background: white;
+  overflow: hidden;
+  position: relative;
+}
+
+.nav {
+	width: 600px;
+	height: 40px;
+	position: absolute;
+	bottom: 0px;
+	right: 0px;
+}
+
+.about {
+	font-family: brandon-grotesque;
+}
+
+a {
+	text-decoration: none;
+}
+.header a {
+	float: left;
+	left: 100px;
+	color: #2c2c2c;
+	text-align: center;
+	font-family: brandon-grotesque;
+  	font-weight: 700;
+  	font-style: normal;
+  	margin-right: 20px;
+
+}
+
+.header a:last-child{
+	margin-right: 0px;
+} 
+
+.header a:hover {
+	color: #ff827c;
+}
+
+.header img {
+	float: left;
+	width: 170px;
+	height: 100px;
+}	
+
+.content {
+  padding: 16px;
+}
+
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%
+}
+
+.sticky + .content {
+  padding-top: 102px;
+}
+
+.page {
+	width: 1500px;
+	height: 3000px;
+}
+
+.span {
+	width:1500px;
+	height: 770px;
+	
+}
+
+.bottle1 {
+	max-width: 100%;
+	height: auto;
+	
+}
+
+
+.page2 {
+	width: 1500px;
+	height: 650px;
+	background-color: #cfd0ce;
+}
+
+.container1 {
+	width: 700px;
+	height: 200px;
+	margin-left: 140px;
+	padding-top: 60px;
+	
+}
+
+.container2 {
+	width: 640px;
+	height: 150px;
+	margin-left: 140px;
+	padding-top: 30px;
+	
+}
+
+.bigtext {
+	left: 100px;
+	top: 200px;
+	color: #2c2c2c;
+	text-align: left;
+	font-family: brandon-grotesque;
+	font-size: 60px;
+  	font-weight: 1000;
+  	letter-spacing: 20px;
+  	font-style: normal;
+  	
+}
+
+
+.littletext{
+	left: 100px;
+	top: 200px;
+	color: #2c2c2c;
+	text-align: left;
+	font-family: brandon-grotesque;
+	font-size: 20px;
+  	font-weight: 300;
+  	font-style: normal;
+  }
+
+  .container3 {
+	width: 1500px;
+	height: 270px;
+	padding-top: 30px;
+	
+}	
+.fruit1 {
+	max-width: 102%;
+	height: auto;
+	margin-left: -10px;
+}
+
+.page3 {
+	width: 1500px;
+	height: 830px;
+	background-color: white;
+	
+}	
+
+.container4 {
+	width: 700px;
+	height: 55px;
+	margin-left: 140px;
+	padding-top: 60px;
+	
+}
+
+.bigtext2 {
+	left: 100px;
+	top: 200px;
+	color: #2c2c2c;
+	text-align: left;
+	font-family: brandon-grotesque;
+	font-size: 30px;
+  	font-weight: 800;
+  	letter-spacing: 15px;
+  	font-style: normal;
+  	
+}
+
+.container5 {
+	width: 600px;
+	height: 80px;
+	margin-left: 140px;
+	padding-top: 30px;
+	
+}
+
+.container6 {
+	width: 600px;
+	height: 30px;
+	margin-left: 140px;
+	padding-top: 30px;
+	
+}
+
+.bigtext3 {
+	left: 100px;
+	top: 300px;
+	color: #2c2c2c;
+	text-align: left;
+	font-family: brandon-grotesque;
+	font-size: 22px;
+  	font-weight: 500;
+  	letter-spacing: 8px;
+  	font-style: normal;
+  }
+  .container7 {
+	width: 1220px;
+	height: 400px;
+	margin-top: 20px;
+	margin-left: 140px;
+	
+}	
+
+.cocktails {
+	max-width: 100%;
+	height: auto;
+
+}
+
+.page4 {
+	width: 1500px;
+	height: 830px;
+	background-color: #cfd0ce;
+	
+}
+
+.container8 {
+	width: 600px;
+	height: 50px;
+	margin-left: 140px;
+	padding-top: 30px;
+	
+}
+
+
+.maps {
+	float:right;
+	margin-right: 140px;
+	border:.5px;
+	border-color: #2c2c2c;
+}
+
+.page5 {
+	width: 1500px;
+	height: 820px;
+	background-color: white;
+	
+}
+.container9 {
+	width: 500px;
+	height: 55px;
+	float: right;
+	margin-right: 140px;
+	padding-top: 60px;
+	
+
+}
+.container10 {
+	width: 500px;
+	height: 100px;
+	margin-right: 140px;
+	float: right;
+	padding-top: 30px;
+	
+}
+
+.container11 {
+	width: 770px;
+	height: 820px;
+	float: left;
+	 
+}
+
+.drinks {
+	max-width: 100%;
+	height: auto;
+
+}
+
+.input1 {
+	width:600px;
+	height: 100px;
+	margin-top: 60px;
+	float:right;
+	margin-right: 40px;
+	
+
+}
+
+
+.input2 {
+	width:320px;
+	height:30px;
+	text-align: left;
+	font-family:brandon-grotesque;
+	font-size:16px;
+	font-weight: 300;
+	font-style: italic;
+	padding-left: 12px;
+}
+
+.button2 {
+	width:170px;
+	height: 30px;
+	background-color: #ff827c;
+	text-align: center;
+	font-family: brandon-grotesque;
+	font-size: 18px;
+  	font-weight: 300;
+  	letter-spacing: 3px;
+  	font-style: normal;
+  	color: white;
+  	margin-right: 15px;
+
+}
+.container12 {
+	width: 500px;
+	height: 100px;
+	margin-right: 140px;
+	margin-top:200px;
+	float: right;
+	padding-top: 30px;
+	
+}
+
+.socials {
+	max-width: 100%;
+	height: auto;
+
+}
+
+.input3 {
+	width:320px;
+	height:30px;
+	text-align: left;
+	font-family:brandon-grotesque;
+	font-size:16px;
+	font-weight: 300;
+	font-style: italic;
+	padding-left: 12px;
+}
+
+.input4 {
+	width:600px;
+	height: 50px;
+	float:left;
+	margin-left: 140px;
+	
+
+}
+
+
+
+
+
+
